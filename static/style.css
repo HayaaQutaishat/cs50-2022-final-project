@@ -1,0 +1,150 @@
+
+
+#navbar li a:hover
+{
+    text-decoration: underline;
+
+}
+
+#shop
+{
+    background-image: url("women.jpeg");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    border: solid ;
+    padding: 350px 65px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+
+#first
+{
+    background-color: #FFFFCC;
+    text-align: center;
+    padding: 2px ;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+}
+
+#font
+{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.section
+{
+    padding: 40px 40px;
+    text-align: center;
+
+}
+
+#font2
+{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    text-align: center;
+}
+
+#font3
+{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+   
+}
+
+#description a:link
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+#container1 {
+    max-width: 30% !important;
+    margin: auto;
+    padding: 70px 0; 
+ }
+
+ .box
+ {
+    margin:0 auto;  
+    padding: 30px;
+    border:2px solid #333;
+}
+
+#button
+{
+    height:40px;
+    width:370px;
+}
+
+ #cntr
+ {
+     text-align: center;
+ }
+
+#box
+ {
+    margin:0 auto;  
+    padding: 30px;
+    border:2px solid #333;
+}
+
+#cntr1
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.font
+{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+}
+
+#button1
+{
+    width: 200px;
+} 
+
+.decoration
+{
+    padding: 10px;
+    margin: 10px;
+}
+
+.cntr1
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
