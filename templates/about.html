@@ -1,195 +1,39 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans+Arabic:wght@200&family=Oswald:wght@200&display=swap" rel="stylesheet">
-    <title>About</title>
+{% extends 'base.html' %}
 
-</head>
+{% block title %} 
+  About page
+{% endblock %}
 
-</head>
-<body>
-    <script src="scrip.js"></script>
-    <section>
-        <div id="first">
-            <p>Free express shipping & free returns. Save more with cupons & up to 70% off!</p>
-        </div>
-    </section>
+{% block content %}
 
-    <div class="container-fluid">
+  <div>
+      <img src="{{url_for('static',filename = 'about.jpeg')}}" alt="clothes" class="cntr1" width="1400" height="400">
+  </div>
 
-        <nav class="navbar navbar-light bg-light">
-        <div class="container">
-        <a class="navbar-brand" href="shop.png">
-            <img src="yes.webp" alt="logo" width="50" height="50" class="d-inline-block align-text-middle" id="font">
-            Shoppy
-        </a>
+  <div class="font decoration">
+      <h5>About Us</h5>
+      <p>Shoppy is an international B2C fast fashion brand. The company mainly focuses on women's wear, but it also offers men's apparel, children's clothes, accessories, shoes, bags and other fashion items.Shoppy mainly targets Europe, America, Australia, and the Middle East along with other consumer markets. The brand was founded in October 2008, and since then it has upheld the philosophy that "everyone can enjoy the beauty of fashion." Its business covers more than 220 countries and regions around the world.</p>
+  </div>
+  <div class="font decoration">
+      <h5>Our Mission</h5>
+      <p>Shoppy prides itself on offering on-trend styles catering to both young women and teens, that won’t break the bank. Shoppy adheres to the concept that "everyone can enjoy the beauty of fashion." Shoppy is able to stay on top of the latest fashion trends from around the globe while rapidly bringing these styles to market. So whether you're searching for boho dresses and graphic tees or patterned blouses and chic swimwear, Shoppy is the ultimate one-stop-shop for the modern yet economical fashionista. It aims to promptly offer stylish quality products at appealing prices to every user in the world.</p>
+  </div>
+  <div class="font decoration">
+      <h5>Where You Can Find Us</h5> 
+      <p>Shoppy now ships to over 220 countries and regions worldwide. With websites supporting the United States, Spain, France, Russia, Germany, Italy, Australia and the Middle East, SHEIN ships from one of its many globally positioned warehouses. Shoppy continues to thrive due in part to the company's values in controlling the excellence of in-house production. SHEIN aims to provide the highest value trendy pieces while also being dedicated to quality, value and service.</p>
+      <img src="{{url_for('static',filename = 'map.jpeg')}}" alt="map" class="cntr1" width="1200" height="400">
+  </div>
+  <div class="font decoration">
+    <h5>Customer Service</h5>
+    <p>You may have questions, but we've got you covered. Our team of customer service professionals can communicate with you in the following languages: English, French, German, Russian, and Arabic.</p>
+    <img src="{{url_for('static',filename = 'c1.jpeg')}}" alt="customer service" width="1300" height="400">
 
-        <ul class="nav" id="navbar">
-            <li class="nav-item" id="font">
-                <a class="nav-link text-dark" href="signin.html">Sign in</a>
-            </li>
-            <li class="nav-item" id="font">
-                <a class="nav-link active text-dark" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item" id="font">
-                <a class="nav-link text-dark" href="shop.html">Shop</a>
-            </li>
-            <li class="nav-item" id="font">
-                <a class="nav-link text-dark" href="about.html">About</a>
-            </li>
-            <li class="nav-item" id="font">
-                <a href="bag.html" class="nav-link text-dark"><i class="bi bi-cart"></i></a>
-            </li>
-        </ul>
+  </div>
+  <div class="font decoration">
+    <h5>40+ Nationalities</h5>
+    <p>We embrace diversity. We welcome unique perspectives. While we did not orchestrate ourselves to become a multicultural company, we’ve discovered our melting pot makes us stronger. We have always sought out intelligent, curious, passionate individuals – and have found them in all corners of the earth.</p>
+  </div>
 
-        </div>
-        </nav>
-        <div>
-            <img src="about.jpeg" alt="clothes" class="cntr1" width="1400" height="400">
-        </div>
+  {% endblock %}
 
-        <div class="font decoration">
-            <h5>About Us</h5>
-            <p>Shoppy is an international B2C fast fashion brand. The company mainly focuses on women's wear, but it also offers men's apparel, children's clothes, accessories, shoes, bags and other fashion items.Shoppy mainly targets Europe, America, Australia, and the Middle East along with other consumer markets. The brand was founded in October 2008, and since then it has upheld the philosophy that "everyone can enjoy the beauty of fashion." Its business covers more than 220 countries and regions around the world.</p>
-        </div>
-        <div class="font decoration">
-            <h5>Our Mission</h5>
-            <p>Shoppy prides itself on offering on-trend styles catering to both young women and teens, that won’t break the bank. Shoppy adheres to the concept that "everyone can enjoy the beauty of fashion." Shoppy is able to stay on top of the latest fashion trends from around the globe while rapidly bringing these styles to market. So whether you're searching for boho dresses and graphic tees or patterned blouses and chic swimwear, Shoppy is the ultimate one-stop-shop for the modern yet economical fashionista. It aims to promptly offer stylish quality products at appealing prices to every user in the world.</p>
-        </div>
-        <div class="font decoration">
-           <h5>Where You Can Find Us</h5> 
-           <p>Shoppy now ships to over 220 countries and regions worldwide. With websites supporting the United States, Spain, France, Russia, Germany, Italy, Australia and the Middle East, SHEIN ships from one of its many globally positioned warehouses. Shoppy continues to thrive due in part to the company's values in controlling the excellence of in-house production. SHEIN aims to provide the highest value trendy pieces while also being dedicated to quality, value and service.</p>
-           <img src="map.jpeg" alt="map" class="cntr1" width="1200" height="400">
-        </div>
-        <div class="font decoration">
-          <h5>Customer Service</h5>
-          <p>You may have questions, but we've got you covered. Our team of customer service professionals can communicate with you in the following languages: English, French, German, Russian, and Arabic.</p>
-          <img src="c1.jpeg" alt="customer service" width="1300" height="400">
-
-        </div>
-        <div class="font decoration">
-          <h5>40+ Nationalities</h5>
-          <p>We embrace diversity. We welcome unique perspectives. While we did not orchestrate ourselves to become a multicultural company, we’ve discovered our melting pot makes us stronger. We have always sought out intelligent, curious, passionate individuals – and have found them in all corners of the earth.</p>
-        </div>
-
-
-
-                        <!-- Footer -->
-    <footer class="text-center text-lg-start bg-light text-muted" id="font2">
-        <!-- Section: Social media -->
-        <section
-          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
-        >
-          <!-- Left -->
-          <div class="me-5 d-none d-lg-block">
-            <span>More about us!</span>
-          </div>
-          <!-- Left -->
-      
-          <!-- Right -->
-          <div>
-            <a href="" class="me-4 text-reset">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-              <i class="fab fa-google"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-              <i class="fab fa-instagram"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-              <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-              <i class="fab fa-github"></i>
-            </a>
-          </div>
-          <!-- Right -->
-        </section>
-        <!-- Section: Social media -->
-      
-        <!-- Section: Links  -->
-        <section class="">
-          <div class="container text-center text-md-start mt-5">
-            <!-- Grid row -->
-            <div class="row mt-3">
-              <!-- Grid column -->
-              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <!-- Content -->
-                <h6 class="text-uppercase fw-bold mb-4">
-                  <i class="fas fa-gem me-3"></i>Features
-                </h6>
-                <h4>Free shipping and returns.</h4>
-                <p>Easy come, easy go</p>
-              </div>
-              <!-- Grid column -->
-      
-              <!-- Grid column -->
-              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                <!-- Links -->
-                <h6 class="text-uppercase fw-bold mb-4">
-                  Products
-                </h6>
-                <p>
-                  <a href="#!" class="text-reset">Dresses</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Shoes</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Tops</a>
-                </p>
-              </div>
-              <!-- Grid column -->
-      
-              <!-- Grid column -->
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                <!-- Links -->
-                <h6 class="text-uppercase fw-bold mb-4">
-                  Useful links
-                </h6>
-                <p>
-                  <a href="index.html" class="text-reset">Home</a>
-                </p>
-                <p>
-                  <a href="shop.html" class="text-reset">Shop</a>
-                </p>
-                <p>
-                  <a href="about.html" class="text-reset">About</a>
-                </p>
-              </div>
-              <!-- Grid column -->
-      
-              <!-- Grid column -->
-              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                <!-- Links -->
-                <h6 class="text-uppercase fw-bold mb-4">
-                  Contact
-                </h6>
-                <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
-                <p>
-                  <i class="fas fa-envelope me-3"></i>
-                  info@example.com
-                </p>
-                <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-
-              </div>
-              <!-- Grid column -->
-            </div>
-            <!-- Grid row -->
-          </div>
-        </section>
-        <!-- Section: Links  -->
-      
-      </footer>
-      <!-- Footer -->
         
