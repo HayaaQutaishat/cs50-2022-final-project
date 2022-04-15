@@ -12,23 +12,32 @@
     <p id="font2">Summer skirts</p>
     <div class="row" id="font3">
       <div class="col mb-5">
-        <img src="sk1.webp" alt="Dress" width="400" height="500">
+        <img src="{{url_for('static',filename = 'sk1.webp')}}" alt="Dress" width="400" height="500">
         <h6>Bea Skirt</h6>
         <p>€ 25</p>
-        <button>Add to Cart</button>
+        <form action="/bag", method="post">
+          <input name="id" type="hidden" value="23">
+          <input type="submit" value="Add to Cart">
+        </form>
 
       </div>
       <div class="col mb-5">
-        <img src="sk2.webp" alt="Top" width="400" height="500">
+        <img src="{{url_for('static',filename = 'sk2.webp')}}" alt="Top" width="400" height="500">
         <h6>Taylor Linen Skirt</h6>
         <p>€ 20</p>
-        <button>Add to Cart</button>
+        <form action="/bag", method="post">
+          <input name="id" type="hidden" value="24">
+          <input type="submit" value="Add to Cart">
+        </form>
       </div>
       <div class="col mb-5">
-        <img src="sk3.webp" alt="Shoes" width="400" height="500">
+        <img src="{{url_for('static',filename = 'sk3.webp')}}" alt="Shoes" width="400" height="500">
         <h6>Roma Skirt</h6>
         <p>€ 18</p>
-        <button>Add to Cart</button>
+        <form action="/bag", method="post">
+          <input name="id" type="hidden" value="25">
+          <input type="submit" value="Add to Cart">
+        </form>
       </div>
     </div>
   </div>
@@ -37,24 +46,33 @@
   <div class="container">
     <div class="row" id="font3">
       <div class="col mb-5">
-        <img src="sk4.webp" alt="Dress" width="400" height="500">
+        <img src="{{url_for('static',filename = 'sk4.webp')}}" alt="Dress" width="400" height="500">
         <h6>Verona Skirt</h6>
         <p>€ 32</p>
-        <button>Add to Cart</button>
+        <form action="/bag", method="post">
+          <input name="id" type="hidden" value="26">
+          <input type="submit" value="Add to Cart">
+        </form>
         
       </div>
       <div class="col mb-5">
-        <img src="sk5.webp" alt="Top" width="400" height="500">
+        <img src="{{url_for('static',filename = 'sk5.webp')}}" alt="Top" width="400" height="500">
         <h6>Zoe Skirt</h6>
         <p>€ 22</p>
-        <button>Add to Cart</button>
+        <form action="/bag", method="post">
+          <input name="id" type="hidden" value="27">
+          <input type="submit" value="Add to Cart">
+        </form>
 
       </div>
       <div class="col mb-5">
-        <img src="sk6.webp" alt="Shoes" width="400" height="500">
+        <img src="{{url_for('static',filename = 'sk6.webp')}}" alt="Shoes" width="400" height="500">
         <h6>Margot Skirt</h6>
         <p>€ 28</p>
-        <button>Add to Cart</button>
+        <form action="/bag", method="post">
+          <input name="id" type="hidden" value="28">
+          <input type="submit" value="Add to Cart">
+        </form>
 
       </div>
     </div>

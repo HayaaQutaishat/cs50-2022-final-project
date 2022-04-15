@@ -13,22 +13,31 @@
     <div class="row" id="font3">
       <div class="col mb-5">
         <img src="{{url_for('static',filename = 'j6.webp')}}" alt="Dress" width="400" height="500">
-        <h6>Cynthia High Rise Straight Jeans</h6>
+        <h6>Cynthia Jeans</h6>
         <p>€ 35</p>
-        <button>Add to Cart</button>
+        <form action="/bag", method="post">
+          <input name="id" type="hidden" value="8">
+          <input type="submit" value="Add to Cart">
+        </form>
 
       </div>
       <div class="col mb-5">
         <img src="{{url_for('static',filename = 'j5.webp')}}"alt="Top" width="400" height="500">
         <h6>Gunner Relaxed Twill Pants</h6>
         <p>€ 40</p>
-        <button>Add to Cart</button>
+        <form action="/bag", method="post">
+          <input name="id" type="hidden" value="9">
+          <input type="submit" value="Add to Cart">
+        </form>
       </div>
       <div class="col mb-5">
         <img src="{{url_for('static',filename = 'j4.webp')}}"alt="Shoes" width="400" height="500">
         <h6>Harrison Carpenter High Rise Straight Pants</h6>
         <p>€ 39</p>
-        <button>Add to Cart</button>
+        <form action="/bag", method="post">
+          <input name="id" type="hidden" value="10">
+          <input type="submit" value="Add to Cart">
+        </form>
       </div>
     </div>
   </div>
@@ -40,21 +49,30 @@
         <img src="{{url_for('static',filename = 'j2.webp')}}" alt="Dress" width="400" height="500">
         <h6>Liza Ultra High Rise Slim Straight Jeans</h6>
         <p>€ 51</p>
-        <button>Add to Cart</button>
+        <form action="/bag", method="post">
+          <input name="id" type="hidden" value="11">
+          <input type="submit" value="Add to Cart">
+        </form>
         
       </div>
       <div class="col mb-5">
         <img src="{{url_for('static',filename = 'j3.webp')}}" alt="Top" width="400" height="500">
-        <h6>Liza Ultra High Rise Slim Straight Jeans</h6>
+        <h6>Liza Ultra High Rise Jeans</h6>
         <p>€ 40</p>
-        <button>Add to Cart</button>
+        <form action="/bag", method="post">
+          <input name="id" type="hidden" value="12">
+          <input type="submit" value="Add to Cart">
+        </form>
 
       </div>
       <div class="col mb-5">
         <img src="{{url_for('static',filename = 'j1.webp')}}"alt="Shoes" width="400" height="500">
         <h6>Cynthia High Rise Straight Jeans</h6>
         <p>€ 48</p>
-        <button>Add to Cart</button>
+        <form action="/bag", method="post">
+          <input name="id" type="hidden" value="13">
+          <input type="submit" value="Add to Cart">
+        </form>
 
       </div>
     </div>

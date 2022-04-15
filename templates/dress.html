@@ -15,20 +15,30 @@
       <img src="{{url_for('static',filename = 'd1.webp')}}" alt="Dress" width="400" height="500">
       <h6>Ariele Cotton Sweater Dress</h6>
       <p>€ 75</p>
-      <button>Add to Cart</button>
+      <form action="/bag", method="post">
+        <input name="id" type="hidden" value="1">
+        <input type="submit" value="Add to Cart">
+      </form>
+      
 
     </div>
     <div class="col mb-5">
       <img src="{{url_for('static',filename = 'd2.webp')}}" alt="Top" width="400" height="500">
       <h6>Juliette Dress</h6>
       <p>€ 60</p>
-      <button>Add to Cart</button>
+      <form action="/bag", method="post">
+        <input name="id" type="hidden" value="3">
+        <input type="submit" value="Add to Cart">
+      </form>
     </div>
     <div class="col mb-5">
       <img src="{{url_for('static',filename = 'd3.webp')}}" alt="Shoes" width="400" height="500">
       <h6>Frasier Dress</h6>
       <p>€ 55</p>
-      <button>Add to Cart</button>
+      <form action="/bag", method="post">
+        <input name="id" type="hidden" value="4">
+        <input type="submit" value="Add to Cart">
+      </form>
     </div>
   </div>
 </div>
@@ -40,21 +50,31 @@
       <img src="{{url_for('static',filename = 'd4.webp')}}" alt="Dress" width="400" height="500">
       <h6>Inka Dress</h6>
       <p>€ 49</p>
-      <button>Add to Cart</button>
+      <form action="/bag", method="post">
+        <input name="id" type="hidden" value="5">
+        <input type="submit" value="Add to Cart">
+      </form>
+      
       
     </div>
     <div class="col mb-5">
       <img src="{{url_for('static',filename = 'd5.webp')}}" alt="Top" width="400" height="500">
       <h6>Belgium Linen Dress</h6>
       <p>€ 63</p>
-      <button>Add to Cart</button>
+      <form action="/bag", method="post">
+        <input name="id" type="hidden" value="6">
+        <input type="submit" value="Add to Cart">
+      </form>
 
     </div>
     <div class="col mb-5">
       <img src="{{url_for('static',filename = 'd6.webp')}}" alt="Shoes" width="400" height="500">
-      <h6>Ariele Cotton Sweater Dress</h6>
+      <h6>Ariele Cotton Dress</h6>
       <p>€ 52</p>
-      <button>Add to Cart</button>
+      <form action="/bag", method="post">
+        <input name="id" type="hidden" value="7">
+        <input type="submit" value="Add to Cart">
+      </form>
 
     </div>
   </div>

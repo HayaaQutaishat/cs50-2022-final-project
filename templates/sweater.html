@@ -14,22 +14,31 @@
     <div class="row" id="font3">
       <div class="col mb-5">
         <img src="{{url_for('static',filename = 'sw1.jpeg')}}"alt="Dress" width="400" height="500">
-        <h6>Cynthia High Rise Straight Jeans</h6>
+        <h6>Casual Swester</h6>
         <p>€ 35</p>
-        <button>Add to Cart</button>
+        <form action="/bag", method="post">
+          <input name="id" type="hidden" value="29">
+          <input type="submit" value="Add to Cart">
+        </form>
 
       </div>
       <div class="col mb-5">
         <img src="{{url_for('static',filename = 'sw2.webp')}}" alt="Top" width="400" height="500">
-        <h6>Gunner Relaxed Twill Pants</h6>
+        <h6>Oversized Pattern Crew Sweater</h6>
         <p>€ 30</p>
-        <button>Add to Cart</button>
+        <form action="/bag", method="post">
+          <input name="id" type="hidden" value="30">
+          <input type="submit" value="Add to Cart">
+        </form>
       </div>
       <div class="col mb-5">
         <img src="{{url_for('static',filename = 'sw3.jpeg')}}" alt="Shoes" width="400" height="500">
-        <h6>Harrison Carpenter High Rise Straight Pants</h6>
+        <h6>Casual, cropped V-neck cardigan</h6>
         <p>€ 27</p>
-        <button>Add to Cart</button>
+        <form action="/bag", method="post">
+          <input name="id" type="hidden" value="31">
+          <input type="submit" value="Add to Cart">
+        </form>
       </div>
     </div>
   </div>
@@ -39,23 +48,32 @@
     <div class="row" id="font3">
       <div class="col mb-5">
         <img src="{{url_for('static',filename = 'sw4.jpeg')}}"alt="Dress" width="400" height="500">
-        <h6>Liza Ultra High Rise Slim Straight Jeans</h6>
+        <h6>Ribbed sweater with a polo neck</h6>
         <p>€ 36</p>
-        <button>Add to Cart</button>
+        <form action="/bag", method="post">
+          <input name="id" type="hidden" value="32">
+          <input type="submit" value="Add to Cart">
+        </form>
         
       </div>
       <div class="col mb-5">
         <img src="{{url_for('static',filename = 'sw5.jpeg')}}" alt="Top" width="400" height="500">
-        <h6>Liza Ultra High Rise Slim Straight Jeans</h6>
+        <h6>Cashmere cropped cardigan with a slim fit</h6>
         <p>€ 35</p>
-        <button>Add to Cart</button>
+        <form action="/bag", method="post">
+          <input name="id" type="hidden" value="33">
+          <input type="submit" value="Add to Cart">
+        </form>
 
       </div>
       <div class="col mb-5">
         <img src="{{url_for('static',filename = 'sw6.webp')}}"alt="Shoes" width="400" height="500">
-        <h6>Cynthia High Rise Straight Jeans</h6>
+        <h6>Cable knit sweater with icon</h6>
         <p>€ 33</p>
-        <button>Add to Cart</button>
+        <form action="/bag", method="post">
+          <input name="id" type="hidden" value="34">
+          <input type="submit" value="Add to Cart">
+        </form>
 
       </div>
     </div>
