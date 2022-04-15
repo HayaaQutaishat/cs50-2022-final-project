@@ -16,11 +16,14 @@ If user already has an account he can switch easily into the signin page where h
 
 Also, both signin and signup pages make sure that user submitted all fields and if not warning message will appear so he can't skip any. 
 
-Shop page 
+Shop page which where user can see all the products that avalable on the website. There are six different categories with six different pages for each.
+Dresses, Tops, Shoes, Jeans, Skirts and Sweaters! 
 
 
 
 
+
+![sc](https://user-images.githubusercontent.com/95029840/163598814-c2bc45f0-76ce-4722-8ced-dc00c6daa4b0.jpeg)
 
 
 
